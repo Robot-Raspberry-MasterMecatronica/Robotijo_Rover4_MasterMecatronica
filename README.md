@@ -114,8 +114,20 @@ pip3 install opencv-python numpy
 
 Este es el modo principal de uso del robot. Ejecuta el robot en modo autónomo con seguimiento de línea y control directo.
 
+**Pasos para ejecutar:**
+
+1. **Clonar el repositorio en la Raspberry Pi:**
 ```bash
-cd ~/Robotijo_Rover4_MasterMecatronica
+git clone https://github.com/Robot-Raspberry-MasterMecatronica/Robotijo_Rover4_MasterMecatronica.git
+```
+
+2. **Entrar en la carpeta del proyecto:**
+```bash
+cd Robotijo_Rover4_MasterMecatronica
+```
+
+3. **Ejecutar el programa:**
+```bash
 sudo python3 mi_robot.py
 ```
 
@@ -134,29 +146,6 @@ sudo python3 mi_robot.py
 
 **Al ejecutar el programa:**
 Se muestra un menú donde puedes seleccionar el modo de operación (1-5). El robot se puede detener en cualquier momento con `Ctrl+C` y volverá al menú principal.
-
----
-
-### **Modo Alternativo: Control con Interfaz Gráfica (GUI)**
-
-Modo opcional con servidor TCP e interfaz gráfica PyQt5 para control remoto del robot desde un cliente web.
-
-```bash
-cd ~/Robotijo_Rover4_MasterMecatronica
-python3 main.py
-```
-
-**Características:**
-- Servidor TCP en puerto 5000 (comandos) y 8000 (video)
-- Interfaz gráfica para monitorización
-- Streaming de video en tiempo real
-- Control remoto desde navegador o aplicación cliente
-
-**Uso:**
-1. Ejecutar `main.py`
-2. Presionar el botón "Start Server" en la interfaz
-3. Conectar desde un cliente a la IP mostrada en la interfaz
-4. Controlar el robot mediante la aplicación cliente
 
 ---
 
