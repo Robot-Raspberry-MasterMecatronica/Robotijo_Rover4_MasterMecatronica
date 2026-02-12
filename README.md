@@ -5,10 +5,11 @@
 ## 👥 Autores
 
 **Equipo 4 - Master Mecatrónica**
-- Luis Enrique Padilla Belmonte
-- Iago Villasanin Vázquez 
-- Antonio Oliva Arrojo
+- Luis Enrique Padilla Belmonte (seguidor de lineas)
+- Iago Villasanin Vázquez (evitar obstaculos)
+- Antonio Oliva Arrojo (Calibracion sensores, test sensores)
 
+resto de tareas hechas por los tres integrantes.
 ---
 
 ## 📝 Descripción del Proyecto
