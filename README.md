@@ -1,4 +1,4 @@
-# Robotijo_Rover4_M-sterMecatr-nica
+# Robotijo_Rover4_MasterMecatronica
 Members:
 Luis Enrique Padilla Belmonte,
 Iago...,
